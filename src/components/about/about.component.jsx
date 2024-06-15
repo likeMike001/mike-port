@@ -1,0 +1,12 @@
+
+
+const About = () => {
+  return (
+    <div>  
+        <h3> This is the about component </h3>
+      
+    </div>
+  )
+}
+
+export default About
