@@ -11,8 +11,10 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 relative">
       <ParticlesComponent id="particles" />
-      <div className="text-2xl text-pink-500 mt-6 z-10">
-        What do you see?
+      <div >
+        
+         <h3 className="text-2xl text-pink-500 mt-6 z-10">What do you see? </h3> 
+        <Header />
       </div>
     </div>
   );
