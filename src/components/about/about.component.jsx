@@ -6,7 +6,7 @@ const About = () => {
     return (
 
 
-      <motion.div className="flex items-center p-20 -mt-20"
+      <motion.div className="flex items-center p-20 -mt-17"
         // animate = {{
         //     scale : [1,2,2,1,1],
         //     rotate: [0, 0, 270, 270, 0],
@@ -30,7 +30,7 @@ const About = () => {
           src={crwn}
           alt="Crown"
         />
-       <p className="text-pink-500 font-customFont text-3xl -mt-20">
+       <p className=" font-customFont text-3xl -mt-20">
        Aspiring Software Developer with a strong foundation in software engineering principles, currently pursuing a degree in Computer Science. Proficient in building data pipelines and automated ETL processes using technologies such as Kafka. Experienced in data visualization with tools like Tableau, Matplotlib, and JavaScript. Skilled in systems modeling and simulation using Python
         </p>
       </motion.div>
