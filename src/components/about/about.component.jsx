@@ -1,4 +1,4 @@
-import crwn from "../../assets/crown.jpg";
+// import crwn from "../../assets/crwon.svg";
 import { motion } from "framer-motion";
 
 
@@ -6,7 +6,7 @@ const About = () => {
     return (
 
 
-      <motion.div className="flex items-center p-20 -mt-17"
+      <motion.div className=" p-20 -mt--5"
         // animate = {{
         //     scale : [1,2,2,1,1],
         //     rotate: [0, 0, 270, 270, 0],
@@ -25,12 +25,13 @@ const About = () => {
         }}
     
         >
-        <img
-          className="w-70 h-auto mr-4 "
-          src={crwn}
+        {/* <img
+          className="w-25 h-20 mr-8 "
+        //   src={crwn}
           alt="Crown"
-        />
-       <p className=" font-customFont text-3xl -mt-20">
+        /> */}
+        <h3 className="font-customFont text-5xl text-center mb-10 text-textPrimary">About</h3>
+       <p className ="font-customFont text-2xl -mt-15">
        Aspiring Software Developer with a strong foundation in software engineering principles, currently pursuing a degree in Computer Science. Proficient in building data pipelines and automated ETL processes using technologies such as Kafka. Experienced in data visualization with tools like Tableau, Matplotlib, and JavaScript. Skilled in systems modeling and simulation using Python
         </p>
       </motion.div>
