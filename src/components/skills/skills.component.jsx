@@ -5,7 +5,7 @@ import { skillsData } from './skills.data'; // Ensure this path is correct
 const Skills = () => {
   return (
     <div className="p-10">
-      <h3 className="text-center text-5xl font-customFont mb-10">What I have worked with :)</h3>
+      <h3 className="text-center text-5xl font-customFont mb-10">What I work with  :)</h3>
       <div className="flex justify-center space-x-40"> 
         {Object.values(skillsData).map((category, index) => (
           <motion.div

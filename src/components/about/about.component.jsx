@@ -6,7 +6,7 @@ const About = () => {
     return (
 
 
-      <motion.div className=" p-20 -mt--5"
+      <motion.div className=" p-20 mt-20"
         // animate = {{
         //     scale : [1,2,2,1,1],
         //     rotate: [0, 0, 270, 270, 0],
