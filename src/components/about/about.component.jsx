@@ -16,7 +16,7 @@ const About = () => {
         //     duration : 2,
         //     ease :"easeOut",
         // }}
-        drag
+        // drag
         dragConstraints={{
           top: -50,
           left: -50,
