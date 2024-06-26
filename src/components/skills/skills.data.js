@@ -45,14 +45,6 @@ export const skillsData = {
         { name: "PyTorch", icon: pyTIcon},
         { name: "C++", icon: cplusIcon},
         { name: "Scipy", icon: sciIcon},
-
-
-
-    
-        // { name: "Python", icon: tIcon},
-        
-        // { name: "Scikit-Learn", icon: "path/to/scikit-learn.svg" },
-        // Add more machine learning skills here
       ],
     },
   };

@@ -4,9 +4,9 @@ import ProjectCard from '../projectcard/projectcard.component';
 const Projects = () => {
   const projects = [
     {
-      title: 'Website for Purchasing Clothes and Shoes',
+      title: 'E-Commerce Website',
       description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency.',
-      technologies: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
+      technologies: ['AWS Lambda', 'API Gateway', 'DynamoDB','Firebase'],
       githubLink: 'https://github.com/your-github-repo',
       externalLink: 'https://your-live-project-url.com',
     },
@@ -59,5 +59,6 @@ const Projects = () => {
     </div>
   );
 };
+
 
 export default Projects;
