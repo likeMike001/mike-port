@@ -6,35 +6,13 @@ const About = () => {
     return (
 
 
-      <motion.div className=" p-20 mt-20"
-        // animate = {{
-        //     scale : [1,2,2,1,1],
-        //     rotate: [0, 0, 270, 270, 0],
-        //     borderRadius: ["20%", "20%", "50%", "50%", "20%"],
-        // }}
-        // transition={{
-        //     duration : 2,
-        //     ease :"easeOut",
-        // }}
-        // drag
-        dragConstraints={{
-          top: -50,
-          left: -50,
-          right: 50,
-          bottom: 50,
-        }}
-    
-        >
-        {/* <img
-          className="w-25 h-20 mr-8 "
-        //   src={crwn}
-          alt="Crown"
-        /> */}
+      <div className=" p-20 mt-20" >
+        
         <h3 className="font-customFont text-5xl text-center mb-10 text-textPrimary">About</h3>
        <p className ="font-customFont text-2xl -mt-15">
-       Aspiring Software Developer with a strong foundation in software engineering principles, currently pursuing a degree in Computer Science. Proficient in building data pipelines and automated ETL processes using technologies such as Kafka. Experienced in data visualization with tools like Tableau, Matplotlib, and JavaScript. Skilled in systems modeling and simulation using Python
+        An aspiring software developer pursuing a Bachelor's degree in Computer Science at Arizona State University, I specialize in software engineering principles, data pipelines, and automated ETL processes. I am passionate about creating efficient, scalable solutions. My experience includes working as  Software Developer and Technology Consultant @ ASU. 
         </p>
-      </motion.div>
+      </div>
     );
   }
   

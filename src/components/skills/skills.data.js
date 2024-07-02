@@ -47,5 +47,6 @@ export const skillsData = {
         { name: "Scipy", icon: sciIcon},
       ],
     },
+    
   };
   
