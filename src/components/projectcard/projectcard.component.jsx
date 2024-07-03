@@ -23,7 +23,7 @@ const ProjectCard = ({ title, description, technologies, githubLink, externalLin
       <p className="text-textSecondary mb-4 font-customFont">{description}</p>
       <div className="flex space-x-2">
         {technologies.map((tech, index) => (
-          <span key={index} className="bg-gray-500 text-textPrimary px-2 py-1 rounded-full text-xs font-customFont">
+          <span key={index} className="bg-gray-500 text-textPrimary px-2 py-1 rounded-full text-xs font-customFont  ">
             {tech}
           </span>
         ))}

@@ -6,6 +6,7 @@ import Contact from './components/contact/contact.component';
 import References from './components/references/references.component';
 import Skills from './components/skills/skills.component';
 import { motion, useScroll, useSpring } from 'framer-motion';
+import Particles from '@tsparticles/react';
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -18,9 +19,22 @@ function App() {
   return (
     <motion.div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-gray-400 via-gray-600 to-gray-800 relative">
       <motion.div
-        className="fixed top-0 left-0 right-0 h-1 bg-pink-500 origin-left"
+        className="fixed top-0 left-0 right-0 h-1 bg-pink-500 origin-center"
         style={{ scaleX }}
       />
+      <Particles 
+              params={{
+            		particles: {
+            			line_linked: {
+            				shadow: {
+            					enable: true,
+            					color: "#FFC0CB",
+            					blur: 5
+            				}
+            			}
+            		}
+            	}}
+            />
       <div className="w-full z-10">
         <Header />
         <section id="about">
