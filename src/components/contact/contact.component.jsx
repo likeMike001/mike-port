@@ -3,7 +3,7 @@ import gitHubI from "../../assets/github.svg";
 
 const Contact = () => {
   return (
-    <div className="p-10 text-center">
+    <div className="p-10 text-center mt-15">
       <h3 className="text-center font-customFont text-5xl">Let's Connect!</h3>
       <div className="flex justify-center space-x-10 p-8">
         <a href="https://www.linkedin.com/in/rudresh-bhandari-0817481aa/" target="_blank" rel="noopener noreferrer">

@@ -11,41 +11,41 @@ const Projects = () => {
       externalLink: 'https://your-live-project-url.com',
     },
     {
-        title: 'Website for Purchasing Clothes and Shoes',
+        title: 'Chat-Application',
         description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency.',
         technologies: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
         githubLink: 'https://github.com/your-github-repo',
         externalLink: 'https://your-live-project-url.com',
       },
       {
-        title: 'Website for Purchasing Clothes and Shoes',
+        title: 'AWS Project ',
         description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency.',
         technologies: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
         githubLink: 'https://github.com/your-github-repo',
         externalLink: 'https://your-live-project-url.com',
       },
       {
-        title: 'Website for Purchasing Clothes and Shoes',
+        title: 'Codexx',
         description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency.',
         technologies: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
         githubLink: 'https://github.com/your-github-repo',
         externalLink: 'https://your-live-project-url.com',
       },
       {
-        title: 'Website for Purchasing Clothes and Shoes',
+        title: 'Deep Learning Model for Image Recognition',
         description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency.',
         technologies: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
         githubLink: 'https://github.com/your-github-repo',
         externalLink: 'https://your-live-project-url.com',
       },
       {
-        title: 'Website for Purchasing Clothes and Shoes',
+        title: 'Image Recognition',
         description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI, leveraging serverless architecture for scalability and cost-efficiency.',
-        technologies: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
+        technologies: ['React', 'Open-AI (API)', ''],
         githubLink: 'https://github.com/your-github-repo',
-        externalLink: 'https://your-live-project-url.com',
+        externalLink: 'https://codexx-rudresh-bhandari.vercel.app/',
       },
-    // Add more projects as needed
+      
   ];
 
   return (
