@@ -47,7 +47,7 @@ const Carousel = () => {
             index === currentIndex ? (
               <motion.div
                 key={index}
-                className="reference-card bg-gray-600 text-white rounded-lg p-6 shadow-lg transform transition-transform duration-300 font-customFont"
+                className="reference-card rgb(50, 75, 111) text-white rounded-lg p-6 shadow-lg transform transition-transform duration-300 font-customFont"
                 initial={{ opacity: 0, rotateY: 90 }}
                 animate={{ opacity: 1, rotateY: 0 }}
                 whileHover={{ scale: 1.05 }}

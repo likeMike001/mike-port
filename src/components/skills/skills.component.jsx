@@ -14,16 +14,16 @@ const Skills = () => {
         {Object.values(skillsData).map((category, index) => (
           <motion.div
             key={index}
-            className="bg-gray-600 p-10 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 max-w-sm w-full"
+            className="style={{ backgroundColor: 'rgb(50, 75, 111) p-10 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 max-w-sm w-full"
             whileHover={{ scale: 1.1 }}
           >
             <div className="flex flex-col items-center mb-4">
-              <h2 className="text-white text-2xl font-bold font-customFont mb-4">{category.title}</h2>
+              <h2 className="text-black text-2xl font-bold font-customFont mb-4">{category.title}</h2>
               <div className="grid grid-cols-3 gap-4">
                 {category.skills.map((skill, skillIndex) => (
                   <div key={skillIndex} className="flex flex-col items-center">
                     <img src={skill.icon} alt={skill.name} className="w-12 h-12 mb-2" />
-                    <p className="text-white text-sm font-customFont">{skill.name}</p>
+                    <p className="text-black text-sm font-customFont">{skill.name}</p>
                   </div>
                 ))}
               </div>
