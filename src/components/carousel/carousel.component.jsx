@@ -47,7 +47,7 @@ const Carousel = () => {
             index === currentIndex ? (
               <motion.div
                 key={index}
-                className="reference-card rgb(50, 75, 111) text-white rounded-lg p-6 shadow-lg transform transition-transform duration-300 font-customFont"
+                className="reference-card  text-black rounded-lg p-6 shadow-lg transform transition-transform duration-300 font-customFont"
                 initial={{ opacity: 0, rotateY: 90 }}
                 animate={{ opacity: 1, rotateY: 0 }}
                 whileHover={{ scale: 1.05 }}
@@ -55,7 +55,7 @@ const Carousel = () => {
               >
                 <p className="text-lg mb-4">{reference.note}</p>
                 <h2 className="text-2xl font-bold">{reference.name}</h2>
-                <p className="text-gray-400">{reference.role}</p>
+                <p className="text-black-400">{reference.role}</p>
                 <a href={reference.linkedinLink} target="_blank" rel="noopener noreferrer" >
                   <img src={linkedIn} alt="linkedin" className="w-6 h-6" />
                 </a>

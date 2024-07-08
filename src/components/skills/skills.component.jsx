@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { skillsData } from './skills.data'; 
-import ninja from "../../assets/ninja.svg"
+import ninja from "../../assets/ninja.svg";
 
 const Skills = () => {
   return (
@@ -10,11 +10,11 @@ const Skills = () => {
         My Arsenal 
         <img src={ninja} alt="test" className="ml-2 w-10 h-10" />
       </h3>
-      <div className="flex justify-center space-x-40">
+      <div className="flex flex-col sm:flex-row justify-center sm:space-x-40 space-y-10 sm:space-y-0">
         {Object.values(skillsData).map((category, index) => (
           <motion.div
             key={index}
-            className="style={{ backgroundColor: 'rgb(50, 75, 111) p-10 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 max-w-sm w-full"
+            className=" p-10 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 max-w-sm w-full"
             whileHover={{ scale: 1.1 }}
           >
             <div className="flex flex-col items-center mb-4">
@@ -34,9 +34,5 @@ const Skills = () => {
     </div>
   );
 };
-
-
-
-
 
 export default Skills;

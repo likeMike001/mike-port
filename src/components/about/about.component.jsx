@@ -27,7 +27,7 @@ const About = () => {
         <br />
         <motion.p 
           className="inline-block mt-5"
-          whileHover={{ scale: 1.05, color: "#FFC0CB" }}
+          whileHover={{ scale: 1.05, color: "#AA336A" }}
           transition={{ type: "spring", stiffness: 300 }}
         >
           &lt;p&gt;
@@ -37,7 +37,7 @@ const About = () => {
         <br />
         <motion.p 
           className="inline-block mt-5"
-          whileHover={{ scale: 1.05, color: "#FFC0CB" }}
+          whileHover={{ scale: 1.05, color: "#AA336A" }}
           transition={{ type: "spring", stiffness: 300 }}
         >
           &lt;interests&gt; Hiking , Hooping &lt;/interests&gt;
