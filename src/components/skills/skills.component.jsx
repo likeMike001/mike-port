@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div className="p-10">
       <h3 className="text-center text-5xl font-customFont mb-10 flex items-center justify-center">
-        My Arsenal 
+        Skills 
         <img src={ninja} alt="test" className="ml-2 w-10 h-10" />
       </h3>
       <div className="flex flex-col sm:flex-row justify-center sm:space-x-40 space-y-10 sm:space-y-0">

@@ -37,7 +37,7 @@ const ParticlesI = ({backgroundColor}) => {
                 interactivity: {
                     events: {
                         onClick: {
-                            enable: true,
+                            // enable: true,
                             mode: "push",
                         },
                         onHover: {
